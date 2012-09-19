@@ -1,9 +1,8 @@
-ti.version
-==========
+# ti.version
 
 Python compile script to increment build versions for Appcelerator Titanium Mobile apps
 
-## Instructions
+## Usage
 
 Just copy the `<ti.version>` folder into the `<plugins>` folder for your application.
 
