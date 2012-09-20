@@ -37,7 +37,7 @@ def compile(config):
             # reconstruct json
             data["version"] = str(_major) + '.' + str(_minor) + '.' + str(_patch) + '-' + str(_build)
             
-            print "[INFO] [ti.version]",_oldVersion,">>",data["version"]
+            print "[INFO] [ti.version]",_oldVersion,"->",data["version"]
     
         except:
             print "[ERROR] Invalid package.json file. Version number unable to auto-increment."
